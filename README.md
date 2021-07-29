@@ -1,4 +1,4 @@
-# django-forget-password-via-email
+# forget-password-via-email-django
 forget password via email authentication
 
 
