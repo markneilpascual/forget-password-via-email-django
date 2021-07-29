@@ -1,0 +1,22 @@
+{% extends 'account/base.html' %}
+
+{% block content %}
+    <div class="card w-50">
+        <div class="card-body">
+            <div class="mb-3">
+                <label for="username" class="form-label">Username</label>
+                <input type="text" name="username"  class="form-control">
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" name="password"  class="form-control">
+            </div>
+            <div class="mb-3">
+                <button class="btn btn-success w-100" type="submit">Login</button>
+            </div>
+            <div class="mb-3">
+                <a href="{% url 'password_reset' %}" class="text-success text-decoration-none pull-right">Forgot password?</a>
+            </div>
+        </div>
+    </div>
+{% endblock content %}
