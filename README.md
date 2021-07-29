@@ -1,3 +1,15 @@
+# django-forget-password-via-email
+forget password via email authentication
+
+
+###### Install requirements
+
+```
+pip install -r requirements.txt
+```
+
+###### Migrate models
+```
 python manage.py makemigrations
 python manage.py migrate
 ```
@@ -31,3 +43,4 @@ Changing email subject
 
 Changing email content
 `account/templates/account/auth/includes/password_reset_email.html`
+
